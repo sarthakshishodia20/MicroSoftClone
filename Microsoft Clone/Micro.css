@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container0 .navbar nav{
+    display: flex;
+    /* text-align: center; */
+    padding-top: 25px;
+}
+.container0 .navbar nav img{
+    height: 40px;
+    width: auto;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+.container0 .navbar nav ul{
+    display: flex;
+    /* text-align: center; */
+    /* justify-content: space-evenly; */
+}
+.container0 .navbar nav ul li{
+    /* justify-content: space-evenly; */
+    padding-left: 30px;
+    color:gray;
+}
+.container0 .navbar nav ul li:hover{
+    color:black;
+    cursor: pointer;
+
+}
+.container0 .navbar nav ul li{
+    list-style-type: none;
+}
+.container0 .navbar a{
+    text-decoration: none;
+    color:gray;
+/* font-size: 20px; */
+padding-left: 20px; 
+    
+}
+#Mic{
+    padding-left: 300px;
+    /* color:black;
+    font-size: 40px; */
+}
+#Mic:hover{
+    color:black;
+}
+.icons i:hover{
+    color:black;
+}
+.container1{
+    background-color: rgb(33, 87, 223);
+    height: 50px;
+    width: 100%;
+}
+.container1 h1{
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    padding-top: 15px;
+}
+.container1 h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* .container2 img{
+    height: 510px;
+    width: 100%;
+} */
+/* .container3{
+     */
+.container2{
+    /* background-color: brown; */
+    height: 530px;
+    width: 100%;
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create:VP4-1399x600');
+}
+.container2 h1{
+    font-size: 34px;
+    /* margin-top: 10%; */
+    padding-top: 200px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.container2 p{
+    font-size: 15px;
+    width: 30%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.container2 button{
+    font-size: 20px;
+    background-color: rgb(49, 84, 240);
+    color:white;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    border:1px solid blue;
+}
+.container2 a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container2 a:hover{
+    text-decoration: underline;
+}
+.container2 button:hover{
+    background-color: rgb(41, 95, 211);
+    cursor: pointer;
+}
+.container3{
+    height: 80px;
+    width: 100%;
+    /* background-color: aqua; */
+    /* justify-content: space-evenly; */
+    
+}
+.container3 img{
+    padding-left: 250px;
+    padding-top: 30px;
+}
+.container4 a{
+    /* justify-content: space-evenly; */
+    padding-left: 110px;
+    padding-top: 20px;
+    /* padding-right: 30px; */
+}
+.container4 a{
+    text-decoration: none;
+    /* font-size: 1px; */
+    color:black;
+    /* padding-top: 200px; */
+
+
+}
+.container4 a:hover{
+    color:gray;
+    cursor: pointer;
+}
+.container5{
+    /* display: flex; */
+}
+
+.container5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container5.div1 img{
+    height: 144px;
+    width: 240px;
+    /* border-left:1px solid black;
+    border-right: 1px solid black; */
+}
+.container5 .div1 h1{
+    font-size: 20px;
+    font-family: monospace;
+    /* text-align: center; */
+    padding-left: 15px;
+}
+.container5 .div1 p{
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color:gray;
+    font-weight: bold;
+}
+.container5 .div1 p:hover{
+    cursor: pointer;
+    color:black;
+}
+.container5 .div1 a{
+    text-decoration: none;
+    padding-left: 10px;
+    color:blue;
+}
+.container5 .div1 a:hover{
+    text-decoration: underline;
+    color:rgb(50, 50, 60);
+}
+.three{
+    padding-right: 40px;
+}
+.container6{
+    height: 600px;
+    width: 100%;
+    background-image: url("back.png");
+}
+.container6 h1{
+    font-size: 30px;
+    /* margin-left: 20%;
+    margin-top: 20%; */
+    padding-left: 10%;
+    padding-top: 13%;
+}
+.container6 p{
+    padding-left: 10%;
+    padding-top: 13px;
+    width: 50%;
+    font-size: 20px;
+    color:rgb(45, 45, 45);
+}
+.container6 button{
+    margin-left: 10%;
+    margin-top: 4%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    background-color: rgb(136, 179, 243);
+    font-weight: bold;
+    border:4px inset black;
+    /* text-shadow: tomato; */
+}
+.container6 button:hover{
+    color:black;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.container7{
+    height: 430px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* background-color: aquamarine; */
+}
+.container7 h1{
+    padding-left: 20px;
+
+}
+.container7{
+    /* display: flex; */
+}
+.container7 .content{
+    padding-left: 40px;
+    display: flex;
+}
+.container7 .box1 img{
+    border:2px solid black;
+}
+
+.container7 .box1 h1{
+    font-size: 20px;
+    /* text-align: center; */
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+}
+.container7 .box1{
+    width: 25%;
+}
+.container7 .box1 p{
+    padding-bottom: 20px;
+}
+.container7 .box1 a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(54, 53, 53);
+    padding-top: 20px;
+    font-weight: bold;
+}
+.container7 .box1 a:hover{
+    color:black;
+}
+.container8 h3{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.container8{
+    display: flex;
+}
+.container8 .icons{
+    padding-left: 130px;
+}
+.container8 .icons a i{
+    padding-left: 130px;
+    padding-top: 25px;
+    font-size: 30px;
+    color:gray;
+    /* justify-content: space-between; */
+}
+.container8 .icons a i:hover{
+    color:black;
+
+}
+.container9 {
+    /* margin-top: 20px; */
+    padding-top: 80px;
+    height: 450px;
+    width: 100%;
+    gap:40px;
+    padding-bottom: 80px;
+    display: flex;
+    background-color:aliceblue;
+}
+.container9 .div1 h3{
+    font-size: 19px;
+    padding-left: 20px;
+
+}
+.container9 .div1 ul li{
+    list-style: none;
+}
+.container9 .div1 ul li{
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color:rgb(67, 66, 66);
+    
+}
+.container9 .div1 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(192, 226, 255);
+}
+.footer .img1{
+    padding-left: 20px;
+    padding-top: 20px;
+    color:black;
+    padding-bottom: 20px;
+}
+.footer .img1 i:hover{
+    color:rgb(78, 77, 77);
+    cursor: pointer;
+
+}
+.footer .con1 a{
+    padding-left: 30px;
+    /* margin-top: 120px; */
+    padding-right: 20px;
+    /* padding-top: 50px; */
+    /* text-align: center; */
+    text-decoration: none;
+    /* padding-top: 140px; */
+    color:gray;
+}
+.footer .con1{
+    padding-top: 20px;
+}
+.footer .con1 a:hover{
+    text-decoration: underline;
+    color:black;
+}
